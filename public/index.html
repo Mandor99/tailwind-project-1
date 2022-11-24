@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOKMARK</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body class="font-poppins">
+    <nav class="py-6 mt-6">
+        <div class="container">
+            <div class="nav-content flex justify-between items-center">
+                <figure>
+                    <img src="./imgs/logo-bookmark.svg" alt="logo" class="w-full">
+                </figure>
+                <ul class="uppercase hidden md:flex gap-6">
+                    <li>features</li>
+                    <li>pricing</li>
+                    <li>contract</li>
+                    <button class="btn-red">login</button>
+                </ul>
+                <div class="md:hidden text-2xl cursor-pointer">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- HERO -->
+    <header class="mt-[7rem] relative">
+        <div class="container z-10">
+            <div class="hero flex lg:justify-between items-center gap-12 flex-col-reverse lg:flex-row">
+                <section class="flex-1 text-center lg:text-left">
+                    <h2 class="text-5xl text-my-blue capitalize mb-9">A Simple Bookmark Manager</h2>
+                    <p class="text-my-grey capitalize mb-9">A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free.</p>
+                    <div class="flex gap-8 justify-center lg:justify-start">
+                        <button type="button" class="btn-purple capitalize">get it on chrome</button>
+                        <button type="button" class="btn-light capitalize hover:text-my-white hover:bg-my-purple transition-all">get it on firefox</button>
+                    </div>
+                </section>
+                <figure class="flex-1">
+                    <img src="./imgs/hero-bg.png" alt="hero" class="w-[70%] md:w-4/5 lg:w-full m-auto lg:m-[unset]">
+                </figure>
+            </div>
+        </div>
+        <div class="hidden lg:block shape bg-my-purple w-1/2 h-60 rounded-l-full absolute -bottom-11 right-0 -z-10"></div>
+    </header>
+    <!-- EXTENSIONS -->
+    <section class="mt-[7rem]">
+        <div class="container">
+            <div class="content flex flex-col flex-wrap md:flex-row justify-center items-center gap-12 max-w-screen-lg">
+                <div class="shadow-md p-4 flex flex-col gap-4 justify-center items-center capitalize rounded md: mb-16">
+                    <img src="./imgs/logo-chrome.svg" alt="chrome logo">
+                    <h3 class="">add to chrome</h3>
+                    <p class="text-my-grey">Minimum version 62</p>
+                    <div class="w-full border-b-2 border-my-white"></div>
+                    <button type="button" class="btn-purple mt-4 text-xs">add & install extension</button>
+                </div>
+                <div class="shadow-md p-4 flex flex-col gap-4 justify-center items-center capitalize rounded md:mt-8 md:mb-8">
+                    <img src="./imgs/logo-firefox.svg" alt="firfox logo">
+                    <h3 class="">add to chrome</h3>
+                    <p class="text-my-grey">Minimum version 62</p>
+                    <div class="w-full border-b-2 border-my-white"></div>
+                    <button type="button" class="btn-purple mt-4 text-xs">add & install extension</button>
+                </div>
+                <div class="shadow-md p-4 flex flex-col gap-4 justify-center items-center capitalize rounded md:mt-16">
+                    <img src="./imgs/logo-opera.svg" alt="opera logo">
+                    <h3 class="">add to chrome</h3>
+                    <p class="text-my-grey">Minimum version 62</p>
+                    <div class="w-full border-b-2 border-my-white"></div>
+                    <button type="button" class="btn-purple mt-4 text-xs">add & install extension</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
